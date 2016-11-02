@@ -5,6 +5,7 @@ Try to establish a pattern language that deals with service-oriented architectur
 
 Inspired by http://microservices.io/patterns/ and Christopher Alexander.
 
+
 ## application patterns
 
 * Database architecture
@@ -13,9 +14,12 @@ Inspired by http://microservices.io/patterns/ and Christopher Alexander.
 
 * Security
   * authorization
+    * role-based
+    * activity-based
   * authentication
     * multi-factor (MFA)
     * one-time password (OTP)
+
 
 ## application-infrastructure patterns
 
@@ -25,4 +29,10 @@ Inspired by http://microservices.io/patterns/ and Christopher Alexander.
   * Messaging
   * RPC
 
+
 ## infrastructure patterns
+
+* Deployment
+* Communication
+  * External API
+  * Discovery
